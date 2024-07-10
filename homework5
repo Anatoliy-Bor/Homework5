@@ -1,0 +1,6 @@
+immutable_var = (1,2,3,4,5,'вышел', 'зайка', True, 'false')
+# immutable_var [6]= 'мышка'  котедж не изменяем
+print(immutable_var)
+mutable_list = [1,2,3,4,5,'вышел','зайка',True,'false']
+mutable_list[6] = 'мишка'
+print(mutable_list)
